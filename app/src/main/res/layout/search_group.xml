@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Search Group"
+        android:id="@+id/textView23"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Group Name:"
+            android:id="@+id/text_search_group"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:ems="10"
+            android:id="@+id/edit_search_group"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="SEARCH"
+        android:id="@+id/search_group"
+        android:onClick="searchClickGroup"
+        android:layout_marginTop="30dp"
+        android:alpha=".7"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#666666"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="BACK"
+        android:id="@+id/searchgroup_back"
+        android:onClick="searchClickGroup"
+        android:layout_marginTop="30dp"
+        android:alpha=".7"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#666666"
+        android:textColor="#ffffff" />
+</LinearLayout>

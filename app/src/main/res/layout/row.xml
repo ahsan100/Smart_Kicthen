@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    android:gravity="center_vertical|center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ingrediant"
+        android:id="@+id/textView8"
+        android:layout_gravity="left|center_vertical" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_weight="0.07"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Qty."
+        android:id="@+id/textView7"
+        android:layout_gravity="center" />
+
+    <EditText
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.28"
+            android:singleLine="true"
+            android:ems="10"
+            android:hint="" >
+            <requestFocus />
+        </EditText>
+
+    <ImageButton
+            android:id="@+id/buttonDelete"
+            android:layout_width="38dp"
+            android:layout_height="36dp"
+            android:src="@drawable/content_remove"
+            android:contentDescription="@string/button_delete_row_description"
+            android:onClick="onDeleteClicked"
+        android:layout_gravity="center|right" />
+
+    </LinearLayout>

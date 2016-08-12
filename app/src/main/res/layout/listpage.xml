@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Low Product List"
+        android:id="@+id/textView29"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listproductlayout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:text="SEND"
+        android:id="@+id/send_product"
+        android:alpha=".7"
+        android:onClick="sendbuttonList"
+        android:layout_gravity="center_horizontal"
+        android:background="#666666"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:text="CLEAR"
+        android:id="@+id/clear_list"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:alpha=".7"
+        android:onClick="clearbuttonList"
+        android:background="#666666"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_action_applications"
+            android:title="Home"/>
+        <item
+            android:id="@+id/groups"
+            android:icon="@drawable/group"
+            android:title="Groups"/>
+        <item
+            android:id="@+id/members"
+            android:icon="@drawable/member"
+            android:title="Members"/>
+        <item
+            android:id="@+id/recipe"
+            android:icon="@drawable/recipe"
+            android:title="Recipe" />
+        <item
+            android:id="@+id/inventory"
+            android:icon="@drawable/inventory"
+            android:title="Inventory" />
+        <item
+            android:id="@+id/list_product"
+            android:icon="@drawable/list"
+            android:title="Low Product List" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_action_add_plugin"
+            android:title="Log Out" />
+    </group>
+</menu>
